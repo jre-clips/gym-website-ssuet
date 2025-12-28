@@ -1,0 +1,101 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #0b0f19;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #00ffff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #050816;
+}
+
+.logo {
+    color: #00ffff;
+}
+
+nav a {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section img {
+    max-width: 90%;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.dark {
+    background-color: #050816;
+}
+
+/* Membership Cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    border: 2px solid #00ffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #0b0f19;
+}
+
+.price {
+    color: #00ffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #050816;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}

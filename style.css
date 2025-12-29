@@ -99,3 +99,30 @@ footer {
         align-items: center;
     }
 }
+
+/* Fade Up Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to sections */
+.section {
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Cards animation with slight delay */
+.card {
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Images fade up */
+.section img {
+    animation: fadeUp 1.2s ease forwards;
+}

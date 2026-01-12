@@ -53,5 +53,5 @@ This project is designed for **learning and practice**, helping beginners unders
 
 ---
 
-© 2025 Neon Gym# Gym Website SSUET
+© 2025 Neon Gym
 
